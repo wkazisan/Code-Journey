@@ -57,7 +57,8 @@ switch: git checkout <branchname>
 remove: git rm -rf . or git rm -rf <filename>
 push: git push origin <branchname>
 push fst time: git push --set-upstream origin draft
-
+delete branch: 
+git branch -d branch_name or git branch -D branch_name
 copy from a branch: git checkout draft practice/git/commands/README.md
 
 ## Merge
