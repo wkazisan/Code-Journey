@@ -1,16 +1,25 @@
-$myFont:Helvetica,sans-serif;
-$myColor:red;
-$fontSize: 16px;
-$myWidth: 680px;
-
-body{
-    font-family: $myFont ;
-    font-size: $fontSize;
-    color: $myColor;
+nav{
+    ul{
+        margin: 0;
+        padding:0;
+        list-style: none;
+        font: {
+            size: 1.5em;
+            weight: bold;
+            family: Arial, sans-serif;
+        }
+        text: {
+            transform: uppercase;
+            overflow: hidden;
+        }
+        li{
+            display: inline-block;
+            a{
+                display: block;
+                padding: 6px 12px;
+                text-decoration: none;
+                color: green;
+            }
+        }
+    }
 }
-
-#container{
-    width: $myWidth;
-    border: 1px solid ;
-}
-// testing comment
