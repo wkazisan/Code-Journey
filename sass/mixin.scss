@@ -1,0 +1,27 @@
+
+@mixin width{
+    width: 300px;
+}
+@mixin align{
+    text-align: center;
+}
+@mixin important{
+    @include width;
+    @include align;
+    color: rgb(223, 137, 9);
+    font-size: 60px;
+    font-weight: bold;
+    border: 1px solid rgb(196, 16, 16);
+    
+}
+@mixin height{
+    height: 300px;
+}
+
+h1{
+    @include important;
+    @include height;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
