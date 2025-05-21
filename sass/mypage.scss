@@ -1,0 +1,16 @@
+$myFont:Helvetica,sans-serif;
+$myColor:red;
+$fontSize: 16px;
+$myWidth: 680px;
+
+body{
+    font-family: $myFont ;
+    font-size: $fontSize;
+    color: $myColor;
+}
+
+#container{
+    width: $myWidth;
+    border: 1px solid ;
+}
+// testing comment
