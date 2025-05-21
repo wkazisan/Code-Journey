@@ -1,0 +1,22 @@
+div.mask{
+    max-width: 600px;
+    height: 350px;
+    overflow-y: scroll;
+    background: url(https://www.w3schools.com/css/img_5terre.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image:linear-gradient(black, transparent); 
+    p{
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+div.mask2{
+    -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0,0,0,0.5) 50%);
+    mask-image: radial-gradient(circle, black 50%, rgba(0,0,0,0.5) 50%);
+    img{
+        width: 600px;
+        height: 400px;
+    }
+}
