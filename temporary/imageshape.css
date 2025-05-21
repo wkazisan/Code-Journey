@@ -1,0 +1,36 @@
+div.test img{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+div.test img#img1{
+    clip-path: circle(50%);
+}
+div.test img#img2{
+    clip-path: circle(40%);
+}
+div.test img#img3{
+    clip-path: circle(60%);
+}
+div.test img#img4{
+    clip-path: circle(50% at right);
+}
+div.test img#img5{
+    clip-path: ellipse(50% 35% at right)
+}
+div.test img#img6{
+    clip-path: polygon(50% 0%, 100% 50%,50% 100%, 0% 50%);
+}
+
+
+
+div.card {
+    border:1px solid lightgreen;
+    padding: 10px;
+    overflow: auto;
+}
+div.card img{
+    float: left;
+    clip-path: circle(40%);
+    shape-outside: circle(45%);
+}

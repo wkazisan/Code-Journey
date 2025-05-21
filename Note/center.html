@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* System 1 */
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+/* END */
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+.center01{
+
+}
+</style>
+</head>
+<body>
+    <!-- System 1 -->
+    <div class="container">
+  <img src="https://www.w3schools.com/css/img_5terre_wide.jpg" alt="Cinque Terre" width="1000" height="300">
+  <div class="center">Centered</div>    
+</div>
+<!-- END -->
+ <!-- Using Flex -->
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+  <img src="https://www.w3schools.com/css/img_5terre_wide.jpg" alt="Cinque Terre" width="1000" height="300">
+  <div style="position: absolute; font-size: 18px;">Centered</div>
+    <!-- end -->
+     
+</body>
+</html>

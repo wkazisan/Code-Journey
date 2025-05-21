@@ -1,0 +1,33 @@
+.container{
+    position: relative;
+    width: 50%;
+}
+.container .image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.container  .overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+    background-color: #008cba;
+    opacity: 0;
+}
+.container:hover .overlay{
+    opacity: 1;
+}
+.container .text{
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
