@@ -1,1 +1,12 @@
-h1{width:300px;text-align:center;color:#df8909;font-size:60px;font-weight:bold;border:1px solid #c41010;height:300px;justify-content:center;display:flex;align-items:center}
+h1 {
+  width: 300px;
+  text-align: center;
+  color: rgb(223, 137, 9);
+  font-size: 60px;
+  font-weight: bold;
+  border: 1px solid rgb(196, 16, 16);
+  height: 300px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}

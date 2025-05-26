@@ -1,0 +1,11 @@
+div.newspaper {
+  column-count: 3;
+  column-gap: 50px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: lightblue;
+}
+div.newspaper h2 {
+  column-span: all;
+  text-align: center;
+}
