@@ -1,0 +1,7 @@
+div.resize{
+    border: 2px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    overflow: auto;
+    resize: both;
+}
