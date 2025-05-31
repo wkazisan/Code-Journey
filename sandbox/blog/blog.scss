@@ -1,0 +1,87 @@
+$primary: "Nunito Sans", sans-serif;
+$secondary: "Newsreader", serif;
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  // background-color: #110d0e;
+  font-family: Arial, Helvetica, sans-serif;
+  text-wrap: warp;
+  //   --s: 73px; /* control the size*/
+  //   --c1: #b2b2b2;
+  //   --c2: #ffffff;
+  //   --c3: #d9d9d9;
+
+  //   --_g: var(--c3) 0 120deg,#0000 0;
+  //   background:
+  //     conic-gradient(from -60deg at 50% calc(100%/3),var(--_g)),
+  //     conic-gradient(from 120deg at 50% calc(200%/3),var(--_g)),
+  //     conic-gradient(from  60deg at calc(200%/3),var(--c3) 60deg,var(--c2) 0 120deg,#0000 0),
+  //     conic-gradient(from 180deg at calc(100%/3),var(--c1) 60deg,var(--_g)),
+  //     linear-gradient(90deg,var(--c1)   calc(100%/6),var(--c2) 0 50%,
+  //                           var(--c1) 0 calc(500%/6),var(--c2) 0);
+  //   background-size: calc(1.732*var(--s)) var(--s);
+  .col-1 {
+    
+    background: #de1818;
+    background: -webkit-linear-gradient(
+      325deg,
+      rgba(222, 24, 24, 1) 0%,
+      rgba(219, 69, 4, 1) 65%
+    );
+    background: -moz-linear-gradient(
+      325deg,
+      rgba(222, 24, 24, 1) 0%,
+      rgba(219, 69, 4, 1) 65%
+    );
+    background: linear-gradient(
+      325deg,
+      rgba(222, 24, 24, 1) 0%,
+      rgba(219, 69, 4, 1) 65%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#DE1818", endColorstr="#DB4504", GradientType=0);
+  }
+  .column {
+    height: 300px;
+    width: 350px;
+    padding-top: 20px;
+    padding-left: 30px;
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    h2 {
+      font-weight: bolder;
+      font-size: 22px;
+      padding-top: 80px;
+      padding-bottom: 10px;
+    }
+    p {
+      font-family: $secondary;
+      padding-bottom: 20px;
+      width: 80%;
+      font-size: 18px;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+      font-family: $secondary;
+      border-bottom: 1px solid black;
+      font-weight: bold;
+    }
+  }
+}
+@media all and (max-width:900px){
+  .row {
+    justify-content: space-between;
+  }
+  .row .column {
+    width: 25%%;
+    margin: 10px;
+  }
+}
