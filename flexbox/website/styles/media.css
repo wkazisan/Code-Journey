@@ -1,0 +1,50 @@
+/* Media 
+Quaries */
+
+@media only screen and (max-width: 770px) {
+  nav {
+    flex-direction: column;
+    position: relative;
+  }
+  nav box-icon {
+    display: block;
+    position: absolute;
+    top: 36px;
+    right: 34px;
+  }
+  nav ul {
+    background-color: whitesmoke; /*white background for the menu*/
+    display: none;
+  }
+  .showmenu {
+    display: block; /*show the menu when toggled*/
+  }
+  nav ul li {
+    display: block; /*display items in a block for mobile view*/
+    padding: 2% 0;
+  }
+  nav ul li a {
+    color: #222;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .about2-left {
+    flex-basis: 40%; /*left section takes 40% of the row width*/
+  }
+}
+@media only screen and (max-width: 1540px) {
+  .about2 > .row {
+    flex-direction: column;
+  }
+  .about2 .about2-left {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .about2 .about2-left p {
+    text-align: left;
+  }
+  .about > .row {
+    flex-direction: column;
+  }
+}

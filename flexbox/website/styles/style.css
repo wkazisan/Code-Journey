@@ -38,18 +38,18 @@ img {
   display: flex;
   justify-content: space-between; /*space between items*/
   width: 80%; /*80% of the container width*/
-  align-items: center; /*center items vertically*/
+  align-items: center; /*center items vertically by middle line*/
   margin: auto; /*center the row in the container*/
 }
 section {
-  padding: 100px 0; /*100px top and bottom padding*/
+  padding: 70px 0; /*100px top and bottom padding*/
 }
 /* Hero Section */
 
 header {
   height: 100vh; /*full viewport height*/
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
-    url("images/hero.jpg");
+    url('hero.jpg');
   background-repeat: no-repeat;
   background-size: cover; /*cover the entire section*/
   background-position: center; /*center the background image*/
@@ -82,29 +82,86 @@ nav ul li a:hover {
   transition: 0.5s ease-in-out;
 }
 
-@media only screen and (max-width: 770px) {
-  nav {
-    flex-direction: column;
-    position: relative;
-  }
-  nav box-icon {
-    display: block;
-    position: absolute;
-    top: 36px;
-    right: 34px;
-  }
-  nav ul {
-    background-color: whitesmoke; /*white background for the menu*/
-    display: none; 
-  }
-  .showmenu{
-    display: block; /*show the menu when toggled*/
-  }
-  nav ul li {
-    display: block; /*display items in a block for mobile view*/
-    padding: 2% 0;
-  }
-  nav ul li a{
-    color:#222;
-  }
+/* Form */
+.header-content {
+  width: 50%;
+  position: relative;
+  top: 10%;
+  left: 8%;
 }
+.header-content form {
+  margin: 2.4rem 0;
+}
+input {
+  font-size: 1.8rem;
+}
+input[type="text"],
+input[type="email"] {
+  width: 50%;
+  padding: 1.2rem 2rem;
+  margin: 1.2rem 0;
+  display: block;
+  border: 0.1rem solid #ccc;
+}
+input[type="submit"] {
+  width: 50%;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 1.4rem 2rem;
+  margin: 0.8rem 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+input::placeholder {
+  font-size: 1.3rem;
+
+  color: #ccc; /*light gray for placeholder text*/
+}
+
+/* About Section */
+.about-left,
+.about-middle,
+.about-right {
+  flex-basis: 30%; /*each section takes 30% of the row width*/
+  padding: 1.6rem; /*16px padding*/
+}
+.about-left img {
+  width: 100%;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  display: inline-block;
+  margin: 2rem 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+/* About 2 */
+.about2 {
+  background-color: #222;
+  color: white;
+}
+.about2-left {
+  flrex-basis: 50%; /*left section takes 50% of the row width*/
+}
+.about2-right {
+  flex-basis: 30%; /*right section takes 50% of the row width*/
+}
+.about2 .card {
+  padding: 3rem 8rem;
+  color: #222 /*dark gray for card text*/;
+  background-color: #dcdcdc; /*light gray for card background*/
+  margin: 1.6rem;
+  text-align: center;
+}
+.about2 .card4 {
+  padding: 3rem 7.6rem;
+}
+
