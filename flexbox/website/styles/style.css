@@ -49,7 +49,7 @@ section {
 header {
   height: 100vh; /*full viewport height*/
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
-    url('hero.jpg');
+    url("https://raw.githubusercontent.com/wkazisan/Code-Journey/refs/heads/main/flexbox/website/images/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover; /*cover the entire section*/
   background-position: center; /*center the background image*/
@@ -165,3 +165,116 @@ input::placeholder {
   padding: 3rem 7.6rem;
 }
 
+.mobile-message {
+  display: none;
+  font-size: 10vw;
+  text-align: center;
+  margin-top: 50px;
+  height: 100vh; /*full viewport height*/
+}
+/* Process Section */
+.process .row {
+  justify-content: center; /*center items in the row*/
+}
+.process-content {
+  margin-top: 100px;
+}
+.progress-bar {
+  width: 80%;
+  height: 2px;
+  background-color: #222;
+  margin: auto; /*center the progress bar*/
+  position: relative; /*position relative for absolute children*/
+}
+.progress-bar .c1,
+.progress-bar .c2,
+.progress-bar .c3 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #222;
+  position: absolute;
+}
+.progress-bar .c1 {
+  top: -8px;
+  left: 50px;
+}
+.progress-bar .c2 {
+  top: -8px;
+  left: 50%;
+}
+.progress-bar .c3 {
+  top: -8px;
+  right: 50px;
+}
+.box1,
+.box2,
+.box3 {
+  padding: 1.8rem;
+}
+.process .box2 {
+  text-align: center;
+}
+.process .box1 {
+  text-align: left;
+}
+.process .box3 {
+  text-align: right;
+}
+.process-content h2 {
+  color: #4caf50;
+}
+
+/* Testimony */
+.testimony {
+  background-color: #222;
+  color: whitesmoke;
+}
+.testimony .test {
+  background-color: #505050;
+  padding: 4rem 8rem;
+  margin: 0 1rem;
+}
+.testimony .image {
+  height: 80px;
+  width: 80px;
+}
+.testimony img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Contact */
+
+.contact .row {
+  justify-content: center;
+}
+.contact form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact form .input {
+  width: 50%;
+}
+.contact form textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  font-size: 1.3rem;
+  resize: none;
+  color: #ccc;
+  margin-top: 1.2rem 0;
+  font-family: "Poppins", sans-serif;
+}
+footer {
+  height: 80px;
+  background-color: #222;
+  color: #fff;
+  line-height: 80px;
+  text-align: center;
+}
