@@ -2,6 +2,9 @@
 Quaries */
 
 @media only screen and (max-width: 770px) {
+  .row {
+    flex-direction: column;
+  }
   nav {
     flex-direction: column;
     position: relative;
@@ -26,10 +29,42 @@ Quaries */
   nav ul li a {
     color: #222;
   }
+  /* Header content */
+  .header-content {
+    width: 100%;
+    top: 5%;
+    left: 0;
+    text-align: center;
+    padding: 0 8px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"] {
+    width: 80%;
+    margin: 2rem auto;
+  }
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+  }
+  .progress-bar {
+    display: none;
+  }
+  .process-content {
+    margin-top: 20px;
+  }
+  .process .box2,
+  .process .box1,
+  .process .box3 {
+    text-align: center;
+  }
+  .testimony .test {
+    margin: 1.6rem 0;
+  }
 }
 @media only screen and (min-width: 1920px) {
   .about2-left {
-    flex-basis: 40%; /*left section takes 40% of the row width*/
+    flex-basis: 40%; 
   }
 }
 @media only screen and (max-width: 1540px) {
@@ -48,11 +83,7 @@ Quaries */
     flex-direction: column;
   }
 }
-@media only screen and (max-width:768px){
-  .row{
-    flex-direction: column;
-  }
-}
+
 /* @media only screen and (max-width: 1000px) {
   .mobile-message {
     display: block;
