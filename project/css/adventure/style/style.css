@@ -70,7 +70,7 @@ section p {
   text-align: center;
 }
 .banner-area .banner-img {
-  background-image: url("https://raw.githubusercontent.com/wkazisan/Code-Journey/refs/heads/main/project/css/adventure/images/night.jpg");
+  background-image: url("https://raw.githubusercontent.com/wkazisan/Code-Journey/main/project/css/adventure/images/night.jpg");
   position: absolute;
   top: 0;
   left: 0;
@@ -122,7 +122,7 @@ ul.about-content li {
 }
 .about-left {
   flex-basis: 40%;
-  background-image: url("https://raw.githubusercontent.com/wkazisan/Code-Journey/refs/heads/main/project/css/adventure/images/mountain.jpg");
+  background-image: url("images/mountain.jpg");
 }
 .about-right {
   flex-basis: 60%;
