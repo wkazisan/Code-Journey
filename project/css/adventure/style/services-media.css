@@ -1,0 +1,13 @@
+@media only screen and (max-width:1000px){
+    ul.services-content li{
+        flex-basis: 100%;margin-bottom: 65px;
+
+
+    }
+    ul.services-content li:last-child{
+        margin-bottom: 0;
+    }
+    ul.services-content li p{
+        padding: 0;
+    }
+}

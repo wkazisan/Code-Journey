@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1000px) {
+  ul.contact-content li {
+    flex-basis: 100%;
+    margin-bottom: 65px;
+  }
+  ul.contact-content li:last-child {
+    margin-bottom: 0;
+  }
+  ul.contact-content li p {
+    padding: 0;
+  }
+  ul.contact-content li i {
+    font-size: 75px;
+  }
+}

@@ -149,7 +149,7 @@ input::placeholder {
   color: white;
 }
 .about2-left {
-  flrex-basis: 50%; /*left section takes 50% of the row width*/
+  flex-basis: 50%; /*left section takes 50% of the row width*/
 }
 .about2-right {
   flex-basis: 30%; /*right section takes 50% of the row width*/
