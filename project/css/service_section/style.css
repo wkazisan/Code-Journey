@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  transition: all 0.4s ease-out;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+section {
+  padding: 3rem 2rem;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.services-bg {
+  background-color: #f3f5fa;
+}
+.heading {
+  color: #2e1f27;
+  font-size: 3.5rem;
+  text-align: center;
+  position: relative;
+}
+.heading::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 12rem;
+  height: 0.2rem;
+  background-color: #fff;
+  bottom: 0.1rem;
+  left: calc(50% - 6rem);
+}
+.heading::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 4rem;
+  height: 0.3rem;
+  background-color: #ffae03;
+  bottom: 0;
+  left: calc(50% - 2rem);
+}
+.box-container {
+  display: flex;
+  margin-top: 3rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.box-container .box {
+  flex: 1 1 23rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.box-container .box:hover {
+  transform: translateY(-1rem);
+  cursor: pointer;
+}

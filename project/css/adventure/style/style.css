@@ -174,14 +174,14 @@ ul.services-content li h4 {
   font-size: 20px;
   margin-bottom: 25px;
 }
-ul.services-content li p{
+ul.services-content li p {
   margin: 0;
 }
 /* Contact */
-#contact{
-  background-color:#fff;
+#contact {
+  background-color: #fff;
 }
-ul.contact-content{
+ul.contact-content {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -192,18 +192,17 @@ ul.contact-content li {
   flex-basis: 33%;
   text-align: center;
 }
-ul.contact-content li i{
+ul.contact-content li i {
   font-size: 50px;
   color: crimson;
   margin-bottom: 25px;
 }
-ul.contact-content li p{
+ul.contact-content li p {
   margin: 0;
-
 }
 
 /* Footer */
-footer{
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;

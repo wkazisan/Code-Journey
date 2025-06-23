@@ -1,18 +1,61 @@
 * {
   box-sizing: border-box;
   padding: 0;
+  margin: 0;
 }
-body{
-    background-color: #e6e6e6;
-    font-family: "Poppins", sans-serif;
+body {
+  background-color: #e6e6e6;
+  font-family: "Poppins", sans-serif;
 }
-.card{
-    background-color: #ffffff;
-    height:18rem ;
-    width: 24rem;
-    border-radius: 1.3rem;
 
+.main-content {
+  background-color: #ffffff;
+  height: 30rem;
+  width: 37rem;
+  border-radius: 1.3rem;
+  margin: 20px auto;
+  display: flex;
+  padding: 35px 30px;
+  justify-content: space-between;
 }
-span{
+span {
+  display: inline-block;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.content > i {
+  color: #009310;
+  font-size: 2rem;
+}
+.rating > i {
+  color: #e58a00;
+}
+div.img {
+  width: 180px;
+  height: 180px;
+  padding: 3px;
+  border: 1px solid red;
+  background-image:url(soup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+div.bimage{
+    
+}
+.content h3 {
+  margin-top: 15px;
+}
+.content > .row h4 {
     display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+}
+div.main-content content{
+    flex-basis: 70%;
+}
+div.main-content .img{
+    flex-basis: 30%;
 }

@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.items {
+  background-color: lightsalmon;
+  margin: 5px;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid {
+  display: grid; /*test inline-grid*/
+  background-color: dodgerblue;
+  padding: 10px;
+}
+
+#container {
+  width: 220px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: space-evenly; 
+  align-items: end;
+
+}
+
+#container > div {
+  width: 70px;
+  height: 70px;
+}
